@@ -11,7 +11,7 @@ export type InputParams = {
 export const getExplorerLink = (data: string, { explorer, cluster, type }: InputParams = {}): string => {
 	let result = "";
 
-	if (!type) type = data.length == 44 ? "account" : "tx";
+	if (!type) type = data.length < 50 ? "account" : "tx";
 	if (!explorer) explorer = "solana-explorer";
 
 	switch (explorer) {
