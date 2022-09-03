@@ -1,7 +1,7 @@
 {
 	"name": "@vyper-protocol/explorer-link-helper",
 	"version": "0.0.1",
-	"description": "",
+	"description": "Helper library to get Solana explorers url for given accounts and transaction",
 	"main": "dist/index.js",
 	"typings": "dist/index.d.ts",
 	"scripts": {
