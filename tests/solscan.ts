@@ -1,8 +1,8 @@
 import { expect } from "chai";
 import { getExplorerLink } from "../lib/index";
 
-const ACCOUNT = "FAJtvs7CxbC7xHhDTox1fPtxRk3i3Euvgthzbrmj26in";
-const TX = "5rR9EPLAkfqvXASiXaBQTqxcULvPbH5ZjKT3NF1PddNpxGRv3sGFzU4Jr5EQCsFuWEngYBDcbdUb1fjfBznraAYb";
+const ACCOUNT = "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA";
+const TX = "65VTdMUcxMtLqUsRRif4HDjoM8sTCchE758oVNwF7kJorMZZHrDyJpfwtuyPKt25MuMzUUU9VgoGB14fMBBQnMm4";
 
 describe("solscan", () => {
 	it("mainnet account", async () => {
