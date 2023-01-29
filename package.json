@@ -1,6 +1,6 @@
 {
 	"name": "@vyper-protocol/explorer-link-helper",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Helper library to get Solana explorers url for given accounts and transaction",
 	"main": "dist/index.js",
 	"typings": "dist/index.d.ts",
@@ -18,8 +18,7 @@
 		"url": "git+https://github.com/vyper-protocol/explorer-link-helper.git"
 	},
 	"publishConfig": {
-		"access": "public",
-		"registry": "https://registry.npmjs.org/"
+		"registry": "https://npm.pkg.github.com/"
 	},
 	"files": [
 		"package.json",
